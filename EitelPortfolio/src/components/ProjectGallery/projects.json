@@ -1,0 +1,55 @@
+[
+    {
+        "id": 1,
+        "name": "Team Details Generator",
+        "description": "Generates an HTML webpage that displays summaries for team members.",
+        "deployedUrl": "https://eiteltchap.github.io/Team-Details-Generator/",
+        "githubUrl": "https://github.com/EitelTchap/Team-Details-Generator",
+        "image": "./images/TeamDetailsGenerator.png"
+    },
+
+    {
+        "id": 2,
+        "name": "README Generator Machine",
+        "description": "Generates README files automatically!",
+        "deployedUrl": "N/A",
+        "githubUrl": "https://github.com/EitelTchap/README-Generator-Machine",
+        "image": "./images/README.png"
+    },
+
+    {
+        "id": 3,
+        "name": "City Weather",
+        "description": "Finds the weather details of any city.",
+        "deployedUrl": "https://eiteltchap.github.io/City-Weather/",
+        "githubUrl": "https://github.com/EitelTchap/City-Weather",
+        "image": "./images/Weather-Dashboard-demo.png"
+    },
+
+    {
+        "id": 4,
+        "name": "Daily ToDo List",
+        "description": "The daily planner that will make you king at time management.",
+        "deployedUrl": "https://eiteltchap.github.io/Daily-ToDo-List/",
+        "githubUrl": "https://github.com/EitelTchap/Daily-ToDo-List",
+        "image": "./images/ToDoList.png"
+    },
+
+    {
+        "id": 5,
+        "name": "JavaScript Quiz Sesh",
+        "description": "A quiz to test your JavaScript knowledge!",
+        "deployedUrl": "https://eiteltchap.github.io/JavaScript-Quiz-Sesh/",
+        "githubUrl": "https://github.com/EitelTchap/JavaScript-Quiz-Sesh",
+        "image": "./images/Quiz.gif"
+    },
+
+    {
+        "id": 6,
+        "name": "Avo Great Day",
+        "description": "Track your activity and nutrition progress over time!",
+        "deployedUrl": "https://kelllzzz.github.io/Avo-Great-Day/",
+        "githubUrl": "https://github.com/Kelllzzz/Avo-Great-Day",
+        "image": "./images/AvoGreatDay.png"
+    }
+]
