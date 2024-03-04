@@ -1,17 +1,18 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import './style.css';
+import DownloadCV from '../CV'
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Header() {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
+        <div className="container-fluid">
         <Link className="navbar-brand" to="/">
           Developer Eitel
         </Link>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -19,53 +20,43 @@ function Header() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
 
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
+                    
                     <li className="nav-item">
-                    <NavLink
-                        to="/aboutme"
-                        end
-                        className={({ isActive }) =>
-                        isActive ? 'nav-link active' : 'nav-link'
-                        }
-                    >
-                        About me
-                    </NavLink>
-                    </li>
-                    <li className="nav-item">
-                    <NavLink
-                        to="/skills"
-                        className={({ isActive }) =>
-                        isActive ? 'nav-link active' : 'nav-link'
-                        }
-                    >
-                        My Skills
-                    </NavLink>
+                        <NavLink
+                            to="/"
+                            className={({ isActive }) =>
+                            isActive ? 'nav-link active' : 'nav-link'
+                            }
+                        >
+                            Home
+                        </NavLink>
                     </li>
 
                     <li className="nav-item">
-                    <NavLink
-                        to="/portfolio"
-                        className={({ isActive }) =>
-                        isActive ? 'nav-link active' : 'nav-link'
-                        }
-                    >
-                        Portfolio
-                    </NavLink>
+                        <NavLink
+                            to="/projects"
+                            className={({ isActive }) =>
+                            isActive ? 'nav-link active' : 'nav-link'
+                            }
+                        >
+                            Projects
+                        </NavLink>
                     </li>
 
                     <li className="nav-item">
-                    <NavLink
-                        to="/contact"
-                        className={({ isActive }) =>
-                        isActive ? 'nav-link active' : 'nav-link'
-                        }
-                    >
-                        Contact Me
-                    </NavLink>
+                        <NavLink
+                            to="/contact"
+                            className={({ isActive }) =>
+                            isActive ? 'nav-link active' : 'nav-link'
+                            }
+                        >
+                            Contact
+                        </NavLink>
                     </li>
 
                 </ul>

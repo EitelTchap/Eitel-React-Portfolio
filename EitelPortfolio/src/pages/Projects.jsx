@@ -1,7 +1,7 @@
 import React from 'react';
 // import API from '../utils/API';    //Calls a Giphy API
 import ProjectCard from '../components/ProjectCard';
-import Container from '../components/Container';
+import Wrapper from '../components/Wrapper';
 import projects from "../components/ProjectGallery/projects.json"
 
 function Projects() {
@@ -17,10 +17,11 @@ function Projects() {
   
 
   return (
-    <Container>
-    {projects.map((project)  => (
+    <Wrapper>
+    <h1>Some of my projects so far!</h1>
+    {projects.map((projects)  => (
     <ProjectCard
-      id={project.id}
+      key={projects.id}
       name={projects.name}
       image={projects.image}
       deployedUrl={projects.deployedUrl}
@@ -28,7 +29,7 @@ function Projects() {
       description={projects.description}
     />
     ))}
-    </Container>
+    </Wrapper>
     );
 }
 

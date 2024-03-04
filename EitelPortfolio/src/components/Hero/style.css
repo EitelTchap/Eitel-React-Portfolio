@@ -24,6 +24,8 @@
   
   .hero h1, .hero h2 {
     color: white;
+    position: relative;
+    top: 70%;
   }
   
   .hero h1 {
@@ -34,6 +36,8 @@
   
   .hero img {
       clip-path: circle();
-      max-width: 10%;
+      max-width: 40%;
       max-height: auto;
+      position: relative;
+      top: 20%;
   }

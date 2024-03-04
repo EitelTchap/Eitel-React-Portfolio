@@ -3,6 +3,7 @@ import Hero from '../components/Hero';
 import Container from '../components/Container';
 import Row from '../components/Row';
 import Col from '../components/Col';
+import DownloadCV from '../components/CV';
 
 function Main() {
   return (
@@ -31,6 +32,13 @@ function Main() {
               Need a clean and dynamic website that uses the latest technology?
               I am the guy for the job!
             </p>
+          </Col>
+        </Row>
+        <Row>
+          <Col size="md-12">
+            <DownloadCV>
+              Download my CV here:
+            </DownloadCV>
           </Col>
         </Row>
       </Container>

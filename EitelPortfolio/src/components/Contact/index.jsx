@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './style.css';
+import contact from "./contact.json"
 
 function Form() {
   // Setting initial state to an object
@@ -26,7 +27,7 @@ function Form() {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     event.preventDefault();
     //Clear the input after submission and alert the user 'Thank you for your message' message.
-    alert(`Hi ${formData.firstName}, thank you for your message. We will get back to you as soon.`);
+    alert(`Hi ${formData.firstName} ${formData.lastName}, thank you for your message. We will get back to you as soon as possible!`);
     setFormData({
       firstName: '',
       lastName: '',
@@ -40,52 +41,72 @@ function Form() {
     <div>
         <h1>Contact Form</h1>
         <form className="form">
-            <div class="mb-5 row">
-                <div class="col">
+            <div className="mt-3 mb-3 row">
+                <div className="col">
                 <label>First Name</label>
                 <input
                     value={formData.firstName}
                     name="firstName"
                     onChange={handleInputChange}
                     type="text"
+                    className="form-control"
+                    id="firstName"
                     placeholder="First Name"
                 />
                 </div>
-                <div class="col">
+                <div className="col">
                 <label>Last Name</label>
                 <input
                     value={formData.lastName}
                     name="lastName"
                     onChange={handleInputChange}
                     type="text"
+                    className="form-control"
+                    id="lastName"
                     placeholder="Last Name"
                 />
                 </div>
             </div>
-            <div class="mb-10 row">
-                    <label for="email_addr">Email address</label>
+            <div className="mt-3 mb-3">
+                    <label htmlFor="email_addr">Email address</label>
                     <input
                     value={formData.email}
                     name="email"
                     onChange={handleInputChange}
                     type="email"
+                    className="form-control"
+                    id="email_addr"
                     placeholder="name@example.com"
                     />
             </div>
-            <div class="mb-5">
-                <label for="message">Message</label>
-                <input
+            <div className="mt-3 mb-3">
+                <label htmlFor="message">Message</label>
+                <textarea
                     value={formData.message}
                     name="message"
                     onChange={handleInputChange}
                     type="text"
+                    className="form-control"
+                    id="message"
                     placeholder="Enter your message here."
-                />
+                    rows="6"
+                ></textarea>
             </div>
-            <button type="button" onClick={handleFormSubmit}>
+            <button type="button" className="btn btn-primary px-4 btn-lg" onClick={handleFormSubmit}>
                 Submit
             </button>
-        </form>     
+        </form>
+
+        <div className="mt-5">
+          <h2>Contact List</h2>
+              <ul className="list-unstyled">
+                {contact.map((contact, index) => (
+                  <li key={index}>
+                      <strong>{contact.name}</strong><a href={contact.link} target="_blank" rel="noopener noreferrer">{contact.link}</a>
+                  </li>
+                    ))}
+              </ul>
+        </div>     
     </div>
   );
 }
