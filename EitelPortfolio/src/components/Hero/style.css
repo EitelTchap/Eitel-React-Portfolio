@@ -24,20 +24,14 @@
   
   .hero h1, .hero h2 {
     color: white;
-    position: relative;
-    top: 70%;
+    position: relative !important;
+    display: flex !important;
+    justify-content: center !important;
+    top: 95px !important;
   }
   
   .hero h1 {
     font-size: 60px;
     padding-top: 140px;
     margin-top: 0;
-  }
-  
-  .hero img {
-      clip-path: circle();
-      max-width: 40%;
-      max-height: auto;
-      position: relative;
-      top: 20%;
   }

@@ -1,5 +1,6 @@
 import React from 'react';
 import './EitelMbanyaTchapdeuCV.pdf';
+import "./style.css";
 
 const DownloadCV = (props) => {
     const handleDownload = () => {
