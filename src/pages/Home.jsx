@@ -23,7 +23,7 @@ function Main() {
           </Col>
         </Row>
         <Row>
-        <img id="profileID" src="https://media.licdn.com/dms/image/D4E03AQGRfQv9LkcIYQ/profile-displayphoto-shrink_800_800/0/1696235178675?e=1715212800&v=beta&t=2jicjrHh3T4KXnsUj4qLCCkhVsKkFz2f-omzZMZvBxI"></img>
+        <img src="https://media.licdn.com/dms/image/D4E03AQGRfQv9LkcIYQ/profile-displayphoto-shrink_800_800/0/1696235178675?e=1715212800&v=beta&t=2jicjrHh3T4KXnsUj4qLCCkhVsKkFz2f-omzZMZvBxI"></img>
         </Row>
         <Row>
           <Col size="md-12">
