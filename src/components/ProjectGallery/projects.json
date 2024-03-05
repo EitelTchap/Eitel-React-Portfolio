@@ -5,7 +5,7 @@
         "description": "Generates an HTML webpage that displays summaries for team members.",
         "deployedUrl": "https://eiteltchap.github.io/Team-Details-Generator/",
         "githubUrl": "https://github.com/EitelTchap/Team-Details-Generator",
-        "image": "../src/components/ProjectGallery/images/TeamDetailsGenerator.png"
+        "image": "./src/components/ProjectGallery/images/TeamDetailsGenerator.png"
     },
     
     {
@@ -14,7 +14,7 @@
         "description": "Generates README files automatically!",
         "deployedUrl": "N/A",
         "githubUrl": "https://github.com/EitelTchap/README-Generator-Machine",
-        "image": "../src/components/ProjectGallery/images/README.png"
+        "image": "./src/components/ProjectGallery/images/README.png"
     },
 
     {
@@ -23,7 +23,7 @@
         "description": "Finds the weather details of any city.",
         "deployedUrl": "https://eiteltchap.github.io/City-Weather/",
         "githubUrl": "https://github.com/EitelTchap/City-Weather",
-        "image": "../src/components/ProjectGallery/images/Weather-Dashboard-demo.png"
+        "image": "./src/components/ProjectGallery/images/Weather-Dashboard-demo.png"
     },
 
     {
@@ -32,7 +32,7 @@
         "description": "The daily planner that will make you king at time management.",
         "deployedUrl": "https://eiteltchap.github.io/Daily-ToDo-List/",
         "githubUrl": "https://github.com/EitelTchap/Daily-ToDo-List",
-        "image": "../src/components/ProjectGallery/images/ToDoList.png"
+        "image": "./src/components/ProjectGallery/images/ToDoList.png"
     },
 
     {
@@ -41,7 +41,7 @@
         "description": "A quiz to test your JavaScript knowledge!",
         "deployedUrl": "https://eiteltchap.github.io/JavaScript-Quiz-Sesh/",
         "githubUrl": "https://github.com/EitelTchap/JavaScript-Quiz-Sesh",
-        "image": "../src/components/ProjectGallery/images/Quiz.gif"
+        "image": "./src/components/ProjectGallery/images/Quiz.gif"
     },
 
     {
@@ -50,6 +50,6 @@
         "description": "Track your activity and nutrition progress over time!",
         "deployedUrl": "https://kelllzzz.github.io/Avo-Great-Day/",
         "githubUrl": "https://github.com/Kelllzzz/Avo-Great-Day",
-        "image": "../src/components/ProjectGallery/images/AvoGreatDay.png"
+        "image": "./src/components/ProjectGallery/images/AvoGreatDay.png"
     }
 ]
