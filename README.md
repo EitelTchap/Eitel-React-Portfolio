@@ -9,7 +9,7 @@
 
 This is an initial scaffolding for my portfolio site using React. It provides information on the projects I have done so far, my contact details, a contact form to reach out and my profile picture.
 
-URL: https://eiteltchap.github.io/
+URL: https://eiteltchap.github.io/Eitel-React-Portfolio/
 
 
 ## Table of Contents
