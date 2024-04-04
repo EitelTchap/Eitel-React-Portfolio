@@ -23,14 +23,16 @@ function Main() {
           </Col>
         </Row>
         <Row>
-        <img src="https://media.licdn.com/dms/image/D4E03AQGRfQv9LkcIYQ/profile-displayphoto-shrink_800_800/0/1696235178675?e=1715212800&v=beta&t=2jicjrHh3T4KXnsUj4qLCCkhVsKkFz2f-omzZMZvBxI"></img>
+        <img src="https://media.licdn.com/dms/image/D4E03AQGRfQv9LkcIYQ/profile-displayphoto-shrink_800_800/0/1696235178675?e=1715212800&v=beta&t=2jicjrHh3T4KXnsUj4qLCCkhVsKkFz2f-omzZMZvBxI"
+          style={{ width: '20%', height: '20%', marginTop: '10px', marginBottom: '20px'}}
+        />
         </Row>
         <Row>
           <Col size="md-12">
-            <p>
+            <h6>
               Need a clean and dynamic website that uses the latest technology?
               I am the guy for the job! You can go to "Projects" to view my work.
-            </p>
+            </h6>
           </Col>
         </Row>
         <Row>

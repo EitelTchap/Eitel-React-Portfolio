@@ -4,7 +4,7 @@ import "./style.css";
 
 const DownloadCV = (props) => {
     const handleDownload = () => {
-        window.open('Eitel-React-Portfolio/src/components/CV/EitelMbanyaTchapdeuCV.pdf', '_blank'); // Open the PDF file in a new tab
+        window.open('src/components/CV/EitelMbanyaTchapdeuCV.pdf', '_blank'); // Open the PDF file in a new tab
     };
 
     return (
